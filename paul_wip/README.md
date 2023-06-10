@@ -1,6 +1,6 @@
 The given code snippet applies various filters to a DataFrame. Here is a brief summary of the applied filters:
 
-1. Replacement of missing years: The `replace_missing_years` function iterates over the "Year" column of the DataFrame and replaces the value 9999.0 with the previous and next valid year if available. Otherwise, the value is set to 2017.0.
+1. Replacement of missing years: The `replace_missing_years` function iterates over the "Year" column of the DataFrame and replaces the value 9999.0 with the previous and next valid year are the same. In one particular case where a value falls between 2018 and 2017, it is set to 2017 because the other features appear to be accurate.
 
 2. Replacement of state abbreviations: The `replace_state_values` function is applied to the "State" column to replace the abbreviations of certain states with their full names.
 

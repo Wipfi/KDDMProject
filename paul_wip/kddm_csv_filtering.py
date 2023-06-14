@@ -33,7 +33,7 @@ def find_next_valid_year(df, index, length):
             return df["Year"][i]
     return None
 
-# Funktion zum Ersetzen der Werte in der Spalte "State"
+# function to replace the values in the "State" column
 def replace_state_values(state):
     state_mapping = {
         "AR": "Arkansas",
@@ -61,6 +61,39 @@ df["Length"] = df["Length"].str.replace("-year", "").astype(float)
 
 #replace wrong input values
 df["Value"] = df["Value"].replace(9999999.0, pd.NA)
+
+df.loc[(df['Expense_1'].isnull()) & (df['Expense_2'] == 'Tuition'), 'Expense_1'] = 'Fees'
+df.loc[(df['Expense_1'].isnull()) & (df['Expense_2'] == 'Board'), 'Expense_1'] = 'Room'
+
+#calculate mean In-State
+in_private_mean = df.loc[(df['Type_2'] == 'In-State') & (df['Type_1'] == 'Private'), 'Value'].mean(skipna=True)
+out_private_mean = df.loc[(df['Type_2'] == 'Out-of-State') & (df['Type_1'] == 'Private'), 'Value'].mean(skipna=True)
+in_public_mean = df.loc[(df['Type_2'] == 'In-State') & (df['Type_1'] == 'Public'), 'Value'].mean(skipna=True)
+out_public_mean = df.loc[(df['Type_2'] == 'Out-of-State') & (df['Type_1'] == 'Public'), 'Value'].mean(skipna=True)
+
+#private does not distinguish between in state and out state!
+print(in_private_mean)
+print(out_private_mean)
+print(in_public_mean)
+print(out_public_mean)
+
+
+for index, row in df.iterrows():
+        value = row['Value']        
+        
+        if pd.isnull(value):
+            type_1 = row['Type_1']
+            type_2 = row['Type_2']
+            if type_1 == "Private" and type_2 == "In-State":
+                    df.at[index, 'Value'] = in_private_mean
+            elif type_1 == "Private" and type_2 == "Out-of-State":
+                    df.at[index, 'Value'] = out_private_mean
+            elif type_1 == "Public" and type_2 == "In-State":
+                df.at[index, 'Value'] = in_public_mean
+            elif type_1 == "Public" and type_2 == "Out-of-State":
+                    df.at[index, 'Value'] = out_public_mean
+                  
+             
 
 df = df.dropna(subset=required_features, how='all')
 

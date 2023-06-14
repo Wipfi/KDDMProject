@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import numpy as np
 
 input_file = "paul_wip/Undergrad.csv"
 output_file = "paul_wip/Undergrad_filtered.csv"
@@ -52,6 +53,7 @@ print(df.info())
 
 #replace 9999 if prev and next year are the same year, seems like an input error
 df = replace_missing_years(df)
+df = df.dropna(subset=required_features, how='all')
 
 # replace abbreviations with whole names
 df["State"] = df["State"].apply(replace_state_values)
@@ -65,17 +67,25 @@ df["Value"] = df["Value"].replace(9999999.0, pd.NA)
 df.loc[(df['Expense_1'].isnull()) & (df['Expense_2'] == 'Tuition'), 'Expense_1'] = 'Fees'
 df.loc[(df['Expense_1'].isnull()) & (df['Expense_2'] == 'Board'), 'Expense_1'] = 'Room'
 
-#calculate mean In-State
-in_private_mean = df.loc[(df['Type_2'] == 'In-State') & (df['Type_1'] == 'Private'), 'Value'].mean(skipna=True)
-out_private_mean = df.loc[(df['Type_2'] == 'Out-of-State') & (df['Type_1'] == 'Private'), 'Value'].mean(skipna=True)
-in_public_mean = df.loc[(df['Type_2'] == 'In-State') & (df['Type_1'] == 'Public'), 'Value'].mean(skipna=True)
-out_public_mean = df.loc[(df['Type_2'] == 'Out-of-State') & (df['Type_1'] == 'Public'), 'Value'].mean(skipna=True)
+years = df['Year'].unique()
+print(years)
+in_private_mean = []
+out_private_mean = []
+in_public_mean = []
+out_public_mean = []
+for year in years:
+    #calculate mean In-State
+    filtered_year_data = df[df['Year'] == year]
+    in_private_mean.append(filtered_year_data.loc[(filtered_year_data['Type_2'] == 'In-State') & (filtered_year_data['Type_1'] == 'Private'), 'Value'].mean(skipna=True))
+    out_private_mean.append(filtered_year_data.loc[(filtered_year_data['Type_2'] == 'Out-of-State') & (filtered_year_data['Type_1'] == 'Private'), 'Value'].mean(skipna=True))
+    in_public_mean.append(filtered_year_data.loc[(filtered_year_data['Type_2'] == 'In-State') & (filtered_year_data['Type_1'] == 'Public'), 'Value'].mean(skipna=True))
+    out_public_mean.append(filtered_year_data.loc[(filtered_year_data['Type_2'] == 'Out-of-State') & (filtered_year_data['Type_1'] == 'Public'), 'Value'].mean(skipna=True))
 
-#private does not distinguish between in state and out state!
-print(in_private_mean)
-print(out_private_mean)
-print(in_public_mean)
-print(out_public_mean)
+    #private does not distinguish between in state and out state! 
+    print(in_private_mean[-1])
+    print(out_private_mean[-1])
+    print(in_public_mean[-1])
+    print(out_public_mean[-1])
 
 
 for index, row in df.iterrows():
@@ -84,18 +94,18 @@ for index, row in df.iterrows():
         if pd.isnull(value):
             type_1 = row['Type_1']
             type_2 = row['Type_2']
+            year =  row['Year']
+            index = np.where(years == year)[0][0]            
             if type_1 == "Private" and type_2 == "In-State":
-                    df.at[index, 'Value'] = in_private_mean
+                    df.at[index, 'Value'] = in_private_mean[index]                   
             elif type_1 == "Private" and type_2 == "Out-of-State":
-                    df.at[index, 'Value'] = out_private_mean
+                    df.at[index, 'Value'] = out_private_mean[index]                     
             elif type_1 == "Public" and type_2 == "In-State":
-                df.at[index, 'Value'] = in_public_mean
+                df.at[index, 'Value'] = in_public_mean[index]                  
             elif type_1 == "Public" and type_2 == "Out-of-State":
-                    df.at[index, 'Value'] = out_public_mean
-                  
-             
+                    df.at[index, 'Value'] = out_public_mean[index]              
 
-df = df.dropna(subset=required_features, how='all')
+
 
 # save filtered csv
 df.to_csv(output_file, index=False)

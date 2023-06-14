@@ -1,13 +1,13 @@
 Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
-0,2013.0,Alabama,4.0,13983.0,Private,,Fees,Tuition
-1,2013.0,Alabama,4.0,8503.0,Private,,Room,Board
-2,2013.0,Alabama,2.0,4048.0,Public,In-State,Fees,Tuition
-3,2013.0,Alabama,4.0,8073.0,Public,In-State,Fees,Tuition
-4,2013.0,Alabama,4.0,8473.0,Public,In-State,Room,Board
-5,2013.0,Alabama,2.0,7736.0,Public,Out-of-State,Fees,Tuition
-6,2013.0,Alabama,4.0,20380.0,Public,Out-of-State,Fees,Tuition
-7,2013.0,Alabama,4.0,14083.638535031847,Public,Out-of-State,Room,Board
-8,2013.0,Alaska,4.0,21496.0,Private,,Fees,Tuition
+0,2013.0,Alabama,4.0,6734.886075949367,Private,,Fees,Tuition
+1,2013.0,Alabama,4.0,7123.934782608696,Private,,Room,Board
+2,2013.0,Alabama,2.0,7066.201342281879,Public,In-State,Fees,Tuition
+3,2013.0,Alabama,4.0,13278.892086330936,Public,In-State,Fees,Tuition
+4,2013.0,Alabama,4.0,14752.518796992481,Public,In-State,Room,Board
+5,2013.0,Alabama,2.0,14481.390070921985,Public,Out-of-State,Fees,Tuition
+6,2013.0,Alabama,4.0,14068.978571428572,Public,Out-of-State,Fees,Tuition
+7,2013.0,Alabama,4.0,15002.709219858156,Public,Out-of-State,Room,Board
+8,2013.0,Alaska,4.0,15952.440298507463,Private,,Fees,Tuition
 9,2013.0,Alaska,4.0,8923.0,Private,,Room,Board
 10,2013.0,Alaska,2.0,3972.0,Public,In-State,Fees,Tuition
 11,2013.0,Alaska,4.0,6317.0,Public,In-State,Fees,Tuition
@@ -34,7 +34,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 35,2013.0,California,4.0,8892.0,Public,In-State,Fees,Tuition
 36,2013.0,California,4.0,12137.0,Public,In-State,Room,Board
 37,2013.0,California,2.0,6267.0,Public,Out-of-State,Fees,Tuition
-39,2013.0,California,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+39,2013.0,California,4.0,,Public,Out-of-State,Room,Board
 40,2013.0,Colorado,4.0,19967.0,Private,,Fees,Tuition
 41,2013.0,Colorado,4.0,10939.0,Private,,Room,Board
 42,2013.0,Colorado,2.0,3004.0,Public,In-State,Fees,Tuition
@@ -68,7 +68,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 71,2013.0,Florida,4.0,4377.0,Public,In-State,Fees,Tuition
 72,2013.0,Florida,4.0,9793.0,Public,In-State,Room,Board
 73,2013.0,Florida,2.0,6889.0,Public,Out-of-State,Fees,Tuition
-74,2013.0,Florida,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+74,2013.0,Florida,4.0,,Public,Out-of-State,Fees,Tuition
 75,2013.0,Florida,4.0,9793.0,Public,Out-of-State,Room,Board
 76,2013.0,Georgia,4.0,22456.0,Private,,Fees,Tuition
 78,2013.0,Georgia,2.0,2652.0,Public,In-State,Fees,Tuition
@@ -87,7 +87,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 93,2013.0,Idaho,4.0,4792.0,Private,,Room,Board
 94,2013.0,Idaho,2.0,2915.0,Public,In-State,Fees,Tuition
 95,2013.0,Idaho,4.0,5980.0,Public,In-State,Fees,Tuition
-96,2013.0,Idaho,4.0,7706.03776683087,Public,In-State,Room,Board
+96,2013.0,Idaho,4.0,,Public,In-State,Room,Board
 97,2013.0,Idaho,2.0,7276.0,Public,Out-of-State,Fees,Tuition
 98,2013.0,Idaho,4.0,17736.0,Public,Out-of-State,Fees,Tuition
 99,2013.0,Idaho,4.0,7496.0,Public,Out-of-State,Room,Board
@@ -103,7 +103,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 109,2013.0,Indiana,4.0,9574.0,Private,,Room,Board
 110,2013.0,Indiana,2.0,3455.0,Public,In-State,Fees,Tuition
 111,2013.0,Indiana,4.0,8269.0,Public,In-State,Fees,Tuition
-112,2013.0,Indiana,4.0,7706.03776683087,Public,In-State,Room,Board
+112,2013.0,Indiana,4.0,,Public,In-State,Room,Board
 113,2013.0,Indiana,2.0,7302.0,Public,Out-of-State,Fees,Tuition
 114,2013.0,Indiana,4.0,26538.0,Public,Out-of-State,Fees,Tuition
 115,2013.0,Indiana,4.0,9489.0,Public,Out-of-State,Room,Board
@@ -144,7 +144,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 152,2013.0,Maine,4.0,9381.0,Public,In-State,Room,Board
 153,2013.0,Maine,2.0,6053.0,Public,Out-of-State,Fees,Tuition
 154,2013.0,Maine,4.0,24397.0,Public,Out-of-State,Fees,Tuition
-155,2013.0,Maine,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+155,2013.0,Maine,4.0,,Public,Out-of-State,Room,Board
 156,2013.0,Maryland,4.0,32580.0,Private,,Fees,Tuition
 157,2013.0,Maryland,4.0,12238.0,Private,,Room,Board
 158,2013.0,Maryland,2.0,3500.0,Public,In-State,Fees,Tuition
@@ -171,9 +171,9 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 181,2013.0,Minnesota,4.0,8910.0,Private,,Room,Board
 182,2013.0,Minnesota,2.0,5362.0,Public,In-State,Fees,Tuition
 183,2013.0,Minnesota,4.0,10291.0,Public,In-State,Fees,Tuition
-184,2013.0,Minnesota,4.0,7706.03776683087,Public,In-State,Room,Board
+184,2013.0,Minnesota,4.0,,Public,In-State,Room,Board
 185,2013.0,Minnesota,2.0,6197.0,Public,Out-of-State,Fees,Tuition
-186,2013.0,Minnesota,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+186,2013.0,Minnesota,4.0,,Public,Out-of-State,Fees,Tuition
 187,2013.0,Minnesota,4.0,7708.0,Public,Out-of-State,Room,Board
 188,2013.0,Mississippi,4.0,14592.0,Private,,Fees,Tuition
 189,2013.0,Mississippi,4.0,6289.0,Private,,Room,Board
@@ -288,7 +288,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 310,2013.0,Rhode Island,2.0,3950.0,Public,In-State,Fees,Tuition
 311,2013.0,Rhode Island,4.0,10817.0,Public,In-State,Fees,Tuition
 312,2013.0,Rhode Island,4.0,10765.0,Public,In-State,Room,Board
-313,2013.0,Rhode Island,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+313,2013.0,Rhode Island,2.0,,Public,Out-of-State,Fees,Tuition
 314,2013.0,Rhode Island,4.0,26762.0,Public,Out-of-State,Fees,Tuition
 315,2013.0,Rhode Island,4.0,10765.0,Public,Out-of-State,Room,Board
 316,2013.0,South Carolina,4.0,20990.0,Private,,Fees,Tuition
@@ -320,7 +320,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 344,2013.0,Texas,4.0,8538.0,Public,In-State,Room,Board
 345,2013.0,Texas,2.0,5075.0,Public,Out-of-State,Fees,Tuition
 346,2013.0,Texas,4.0,20044.0,Public,Out-of-State,Fees,Tuition
-347,2013.0,Texas,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+347,2013.0,Texas,4.0,,Public,Out-of-State,Room,Board
 348,2013.0,Utah,4.0,7758.0,Private,,Fees,Tuition
 349,2013.0,Utah,4.0,7572.0,Private,,Room,Board
 350,2013.0,Utah,2.0,3170.0,Public,In-State,Fees,Tuition
@@ -335,7 +335,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 359,2013.0,Vermont,4.0,13524.0,Public,In-State,Fees,Tuition
 360,2013.0,Vermont,4.0,9766.0,Public,In-State,Room,Board
 361,2013.0,Vermont,2.0,10804.0,Public,Out-of-State,Fees,Tuition
-362,2013.0,Vermont,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+362,2013.0,Vermont,4.0,,Public,Out-of-State,Fees,Tuition
 363,2013.0,Vermont,4.0,9766.0,Public,Out-of-State,Room,Board
 364,2013.0,Virginia,4.0,21524.0,Private,,Fees,Tuition
 365,2013.0,Virginia,4.0,8959.0,Private,,Room,Board
@@ -360,14 +360,14 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 388,2013.0,Wisconsin,4.0,25500.0,Private,,Fees,Tuition
 390,2013.0,Wisconsin,2.0,4073.0,Public,In-State,Fees,Tuition
 391,2013.0,Wisconsin,4.0,8339.0,Public,In-State,Fees,Tuition
-392,2013.0,Wisconsin,4.0,7706.03776683087,Public,In-State,Room,Board
+392,2013.0,Wisconsin,4.0,,Public,In-State,Room,Board
 393,2013.0,Wisconsin,2.0,6824.0,Public,Out-of-State,Fees,Tuition
 394,2013.0,Wisconsin,4.0,20146.0,Public,Out-of-State,Fees,Tuition
-395,2013.0,Wisconsin,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+395,2013.0,Wisconsin,4.0,,Public,Out-of-State,Room,Board
 396,2013.0,Wyoming,4.0,13562.0,Private,,Fees,Tuition
 397,2013.0,Wyoming,2.0,2420.0,Public,In-State,Fees,Tuition
 398,2013.0,Wyoming,4.0,3642.0,Public,In-State,Fees,Tuition
-399,2013.0,Wyoming,4.0,7706.03776683087,Public,In-State,Room,Board
+399,2013.0,Wyoming,4.0,,Public,In-State,Room,Board
 400,2013.0,Wyoming,2.0,5998.0,Public,Out-of-State,Fees,Tuition
 401,2013.0,Wyoming,4.0,10962.0,Public,Out-of-State,Fees,Tuition
 402,2013.0,Wyoming,4.0,8837.0,Public,Out-of-State,Room,Board
@@ -391,7 +391,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 421,2014.0,Arizona,2.0,1949.0,Public,In-State,Fees,Tuition
 422,2014.0,Arizona,4.0,9906.0,Public,In-State,Fees,Tuition
 424,2014.0,Arizona,2.0,7994.0,Public,Out-of-State,Fees,Tuition
-425,2014.0,Arizona,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+425,2014.0,Arizona,4.0,,Public,Out-of-State,Fees,Tuition
 426,2014.0,Arizona,4.0,9877.0,Public,Out-of-State,Room,Board
 427,2014.0,Arkansas,4.0,19104.0,Private,,Fees,Tuition
 428,2014.0,Arkansas,4.0,,Private,,Room,Board
@@ -419,11 +419,11 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 452,2014.0,Connecticut,4.0,13311.0,Private,,Room,Board
 453,2014.0,Connecticut,2.0,3824.0,Public,In-State,Fees,Tuition
 455,2014.0,Connecticut,4.0,11514.0,Public,In-State,Room,Board
-456,2014.0,Connecticut,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+456,2014.0,Connecticut,2.0,,Public,Out-of-State,Fees,Tuition
 458,2014.0,Connecticut,4.0,11514.0,Public,Out-of-State,Room,Board
 459,2014.0,Delaware,4.0,13444.0,Private,,Fees,Tuition
 460,2014.0,Delaware,4.0,10777.0,Private,,Room,Board
-461,2014.0,Delaware,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+461,2014.0,Delaware,2.0,,Public,In-State,Fees,Tuition
 462,2014.0,Delaware,4.0,11278.0,Public,In-State,Fees,Tuition
 463,2014.0,Delaware,4.0,11408.0,Public,In-State,Room,Board
 464,2014.0,Delaware,2.0,7910.0,Public,Out-of-State,Fees,Tuition
@@ -432,7 +432,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 468,2014.0,District of Columbia,4.0,13171.0,Private,,Room,Board
 469,2014.0,District of Columbia,4.0,7255.0,Public,In-State,Fees,Tuition
 470,2014.0,District of Columbia,4.0,14535.0,Public,Out-of-State,Fees,Tuition
-473,2014.0,Florida,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+473,2014.0,Florida,2.0,,Public,In-State,Fees,Tuition
 474,2014.0,Florida,4.0,4423.0,Public,In-State,Fees,Tuition
 475,2014.0,Florida,4.0,9949.0,Public,In-State,Room,Board
 476,2014.0,Florida,2.0,9362.0,Public,Out-of-State,Fees,Tuition
@@ -521,7 +521,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 567,2014.0,Massachusetts,4.0,38009.0,Private,,Fees,Tuition
 568,2014.0,Massachusetts,4.0,13475.0,Private,,Room,Board
 569,2014.0,Massachusetts,2.0,4216.0,Public,In-State,Fees,Tuition
-570,2014.0,Massachusetts,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+570,2014.0,Massachusetts,4.0,,Public,In-State,Fees,Tuition
 571,2014.0,Massachusetts,4.0,11115.0,Public,In-State,Room,Board
 572,2014.0,Massachusetts,2.0,9561.0,Public,Out-of-State,Fees,Tuition
 573,2014.0,Massachusetts,4.0,25461.0,Public,Out-of-State,Fees,Tuition
@@ -558,9 +558,9 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 606,2014.0,Missouri,4.0,8789.0,Public,Out-of-State,Room,Board
 607,2014.0,Montana,4.0,20868.0,Private,,Fees,Tuition
 608,2014.0,Montana,4.0,7865.0,Private,,Room,Board
-609,2014.0,Montana,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+609,2014.0,Montana,2.0,,Public,In-State,Fees,Tuition
 610,2014.0,Montana,4.0,6323.0,Public,In-State,Fees,Tuition
-611,2014.0,Montana,4.0,7706.03776683087,Public,In-State,Room,Board
+611,2014.0,Montana,4.0,,Public,In-State,Room,Board
 613,2014.0,Montana,4.0,20797.0,Public,Out-of-State,Fees,Tuition
 615,2014.0,Nebraska,4.0,19832.0,Private,,Fees,Tuition
 616,2014.0,Nebraska,4.0,8052.0,Private,,Room,Board
@@ -576,7 +576,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 626,2014.0,Nevada,4.0,5029.0,Public,In-State,Fees,Tuition
 627,2014.0,Nevada,4.0,11007.0,Public,In-State,Room,Board
 628,2014.0,Nevada,2.0,9345.0,Public,Out-of-State,Fees,Tuition
-629,2014.0,Nevada,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+629,2014.0,Nevada,4.0,,Public,Out-of-State,Fees,Tuition
 630,2014.0,Nevada,4.0,11007.0,Public,Out-of-State,Room,Board
 631,2014.0,New Hampshire,4.0,31029.0,Private,,Fees,Tuition
 632,2014.0,New Hampshire,4.0,12461.0,Private,,Room,Board
@@ -613,7 +613,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 666,2014.0,North Carolina,4.0,6578.0,Public,In-State,Fees,Tuition
 667,2014.0,North Carolina,4.0,8619.0,Public,In-State,Room,Board
 668,2014.0,North Carolina,2.0,8255.0,Public,Out-of-State,Fees,Tuition
-669,2014.0,North Carolina,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+669,2014.0,North Carolina,4.0,,Public,Out-of-State,Fees,Tuition
 670,2014.0,North Carolina,4.0,8619.0,Public,Out-of-State,Room,Board
 671,2014.0,North Dakota,4.0,12408.0,Private,,Fees,Tuition
 672,2014.0,North Dakota,4.0,5715.0,Private,,Room,Board
@@ -676,8 +676,8 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 743,2014.0,Texas,4.0,26382.0,Private,,Fees,Tuition
 744,2014.0,Texas,4.0,9910.0,Private,,Room,Board
 745,2014.0,Texas,2.0,1898.0,Public,In-State,Fees,Tuition
-747,2014.0,Texas,4.0,7706.03776683087,Public,In-State,Room,Board
-748,2014.0,Texas,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+747,2014.0,Texas,4.0,,Public,In-State,Room,Board
+748,2014.0,Texas,2.0,,Public,Out-of-State,Fees,Tuition
 749,2014.0,Texas,4.0,20420.0,Public,Out-of-State,Fees,Tuition
 750,2014.0,Texas,4.0,8735.0,Public,Out-of-State,Room,Board
 751,2014.0,Utah,4.0,7765.0,Private,,Fees,Tuition
@@ -709,7 +709,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 778,2014.0,Washington,4.0,8766.0,Public,In-State,Fees,Tuition
 779,2014.0,Washington,4.0,10519.0,Public,In-State,Room,Board
 780,2014.0,Washington,2.0,7108.0,Public,Out-of-State,Fees,Tuition
-781,2014.0,Washington,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+781,2014.0,Washington,4.0,,Public,Out-of-State,Fees,Tuition
 782,2014.0,Washington,4.0,10519.0,Public,Out-of-State,Room,Board
 783,2014.0,West Virginia,4.0,11050.0,Private,,Fees,Tuition
 785,2014.0,West Virginia,2.0,3403.0,Public,In-State,Fees,Tuition
@@ -734,7 +734,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 806,2015.0,Alabama,4.0,14759.0,Private,,Fees,Tuition
 807,2015.0,Alabama,4.0,9124.0,Private,,Room,Board
 808,2015.0,Alabama,2.0,4120.0,Public,In-State,Fees,Tuition
-810,2015.0,Alabama,4.0,7706.03776683087,Public,In-State,Room,Board
+810,2015.0,Alabama,4.0,,Public,In-State,Room,Board
 811,2015.0,Alabama,2.0,8096.0,Public,Out-of-State,Fees,Tuition
 812,2015.0,Alabama,4.0,22499.0,Public,Out-of-State,Fees,Tuition
 813,2015.0,Alabama,4.0,8988.0,Public,Out-of-State,Room,Board
@@ -786,7 +786,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 862,2015.0,Delaware,4.0,13720.0,Private,,Fees,Tuition
 863,2015.0,Delaware,4.0,11184.0,Private,,Room,Board
 864,2015.0,Delaware,2.0,3530.0,Public,In-State,Fees,Tuition
-865,2015.0,Delaware,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+865,2015.0,Delaware,4.0,,Public,In-State,Fees,Tuition
 866,2015.0,Delaware,4.0,11668.0,Public,In-State,Room,Board
 867,2015.0,Delaware,2.0,8282.0,Public,Out-of-State,Fees,Tuition
 869,2015.0,Delaware,4.0,11668.0,Public,Out-of-State,Room,Board
@@ -805,7 +805,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 883,2015.0,Georgia,4.0,11614.0,Private,,Room,Board
 884,2015.0,Georgia,2.0,3177.0,Public,In-State,Fees,Tuition
 886,2015.0,Georgia,4.0,9770.0,Public,In-State,Room,Board
-888,2015.0,Georgia,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+888,2015.0,Georgia,4.0,,Public,Out-of-State,Fees,Tuition
 890,2015.0,Hawaii,4.0,15233.0,Private,,Fees,Tuition
 891,2015.0,Hawaii,4.0,12251.0,Private,,Room,Board
 892,2015.0,Hawaii,2.0,2800.0,Public,In-State,Fees,Tuition
@@ -832,7 +832,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 915,2015.0,Indiana,4.0,10079.0,Private,,Room,Board
 916,2015.0,Indiana,2.0,4055.0,Public,In-State,Fees,Tuition
 917,2015.0,Indiana,4.0,8633.0,Public,In-State,Fees,Tuition
-918,2015.0,Indiana,4.0,7706.03776683087,Public,In-State,Room,Board
+918,2015.0,Indiana,4.0,,Public,In-State,Room,Board
 919,2015.0,Indiana,2.0,7932.0,Public,Out-of-State,Fees,Tuition
 920,2015.0,Indiana,4.0,28035.0,Public,Out-of-State,Fees,Tuition
 921,2015.0,Indiana,4.0,9760.0,Public,Out-of-State,Room,Board
@@ -840,7 +840,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 923,2015.0,Iowa,4.0,8534.0,Private,,Room,Board
 924,2015.0,Iowa,2.0,4355.0,Public,In-State,Fees,Tuition
 925,2015.0,Iowa,4.0,7858.0,Public,In-State,Fees,Tuition
-926,2015.0,Iowa,4.0,7706.03776683087,Public,In-State,Room,Board
+926,2015.0,Iowa,4.0,,Public,In-State,Room,Board
 927,2015.0,Iowa,2.0,5548.0,Public,Out-of-State,Fees,Tuition
 928,2015.0,Iowa,4.0,23778.0,Public,Out-of-State,Fees,Tuition
 929,2015.0,Iowa,4.0,8851.0,Public,Out-of-State,Room,Board
@@ -919,7 +919,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1009,2015.0,Missouri,4.0,9079.0,Public,Out-of-State,Room,Board
 1010,2015.0,Montana,4.0,21630.0,Private,,Fees,Tuition
 1011,2015.0,Montana,4.0,8006.0,Private,,Room,Board
-1013,2015.0,Montana,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+1013,2015.0,Montana,4.0,,Public,In-State,Fees,Tuition
 1014,2015.0,Montana,4.0,8070.0,Public,In-State,Room,Board
 1016,2015.0,Montana,4.0,21481.0,Public,Out-of-State,Fees,Tuition
 1017,2015.0,Montana,4.0,8070.0,Public,Out-of-State,Room,Board
@@ -949,7 +949,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1044,2015.0,New Jersey,2.0,3982.0,Public,In-State,Fees,Tuition
 1045,2015.0,New Jersey,4.0,12541.0,Public,In-State,Fees,Tuition
 1046,2015.0,New Jersey,4.0,12283.0,Public,In-State,Room,Board
-1048,2015.0,New Jersey,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1048,2015.0,New Jersey,4.0,,Public,Out-of-State,Fees,Tuition
 1050,2015.0,New Mexico,4.0,18779.0,Private,,Fees,Tuition
 1051,2015.0,New Mexico,4.0,,Private,,Room,Board
 1052,2015.0,New Mexico,2.0,1475.0,Public,In-State,Fees,Tuition
@@ -1007,7 +1007,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1107,2015.0,Pennsylvania,4.0,12271.0,Private,,Room,Board
 1108,2015.0,Pennsylvania,2.0,4589.0,Public,In-State,Fees,Tuition
 1109,2015.0,Pennsylvania,4.0,13171.0,Public,In-State,Fees,Tuition
-1110,2015.0,Pennsylvania,4.0,7706.03776683087,Public,In-State,Room,Board
+1110,2015.0,Pennsylvania,4.0,,Public,In-State,Room,Board
 1111,2015.0,Pennsylvania,2.0,11732.0,Public,Out-of-State,Fees,Tuition
 1112,2015.0,Pennsylvania,4.0,24741.0,Public,Out-of-State,Fees,Tuition
 1113,2015.0,Pennsylvania,4.0,10348.0,Public,Out-of-State,Room,Board
@@ -1083,7 +1083,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1186,2015.0,West Virginia,4.0,11055.0,Private,,Fees,Tuition
 1187,2015.0,West Virginia,4.0,8626.0,Private,,Room,Board
 1188,2015.0,West Virginia,2.0,3628.0,Public,In-State,Fees,Tuition
-1189,2015.0,West Virginia,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+1189,2015.0,West Virginia,4.0,,Public,In-State,Fees,Tuition
 1190,2015.0,West Virginia,4.0,9223.0,Public,In-State,Room,Board
 1191,2015.0,West Virginia,2.0,8215.0,Public,Out-of-State,Fees,Tuition
 1192,2015.0,West Virginia,4.0,17882.0,Public,Out-of-State,Fees,Tuition
@@ -1121,7 +1121,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1227,2016.0,Arizona,2.0,2061.0,Public,In-State,Fees,Tuition
 1228,2016.0,Arizona,4.0,9884.0,Public,In-State,Fees,Tuition
 1229,2016.0,Arizona,4.0,10737.0,Public,In-State,Room,Board
-1230,2016.0,Arizona,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1230,2016.0,Arizona,2.0,,Public,Out-of-State,Fees,Tuition
 1231,2016.0,Arizona,4.0,24161.0,Public,Out-of-State,Fees,Tuition
 1232,2016.0,Arizona,4.0,10737.0,Public,Out-of-State,Room,Board
 1233,2016.0,Arkansas,4.0,20936.0,Private,,Fees,Tuition
@@ -1154,7 +1154,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1264,2016.0,Connecticut,4.0,12245.0,Public,Out-of-State,Room,Board
 1265,2016.0,Delaware,4.0,14200.0,Private,,Fees,Tuition
 1266,2016.0,Delaware,4.0,11311.0,Private,,Room,Board
-1267,2016.0,Delaware,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+1267,2016.0,Delaware,2.0,,Public,In-State,Fees,Tuition
 1268,2016.0,Delaware,4.0,11670.0,Public,In-State,Fees,Tuition
 1269,2016.0,Delaware,4.0,11896.0,Public,In-State,Room,Board
 1270,2016.0,Delaware,2.0,6548.0,Public,Out-of-State,Fees,Tuition
@@ -1219,7 +1219,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1334,2016.0,Kansas,4.0,8287.0,Private,,Room,Board
 1335,2016.0,Kansas,2.0,3201.0,Public,In-State,Fees,Tuition
 1336,2016.0,Kansas,4.0,8011.0,Public,In-State,Fees,Tuition
-1337,2016.0,Kansas,4.0,7706.03776683087,Public,In-State,Room,Board
+1337,2016.0,Kansas,4.0,,Public,In-State,Room,Board
 1338,2016.0,Kansas,2.0,4395.0,Public,Out-of-State,Fees,Tuition
 1339,2016.0,Kansas,4.0,20901.0,Public,Out-of-State,Fees,Tuition
 1340,2016.0,Kansas,4.0,8772.0,Public,Out-of-State,Room,Board
@@ -1298,7 +1298,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1419,2016.0,Montana,4.0,22145.0,Public,Out-of-State,Fees,Tuition
 1422,2016.0,Nebraska,4.0,8233.0,Private,,Room,Board
 1423,2016.0,Nebraska,2.0,2852.0,Public,In-State,Fees,Tuition
-1424,2016.0,Nebraska,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+1424,2016.0,Nebraska,4.0,,Public,In-State,Fees,Tuition
 1425,2016.0,Nebraska,4.0,9315.0,Public,In-State,Room,Board
 1426,2016.0,Nebraska,2.0,3910.0,Public,Out-of-State,Fees,Tuition
 1427,2016.0,Nebraska,4.0,18651.0,Public,Out-of-State,Fees,Tuition
@@ -1306,10 +1306,10 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1429,2016.0,Nevada,4.0,18827.0,Private,,Fees,Tuition
 1430,2016.0,Nevada,4.0,13475.0,Private,,Room,Board
 1431,2016.0,Nevada,2.0,2805.0,Public,In-State,Fees,Tuition
-1432,2016.0,Nevada,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+1432,2016.0,Nevada,4.0,,Public,In-State,Fees,Tuition
 1433,2016.0,Nevada,4.0,10272.0,Public,In-State,Room,Board
 1434,2016.0,Nevada,2.0,9450.0,Public,Out-of-State,Fees,Tuition
-1435,2016.0,Nevada,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1435,2016.0,Nevada,4.0,,Public,Out-of-State,Fees,Tuition
 1436,2016.0,Nevada,4.0,10272.0,Public,Out-of-State,Room,Board
 1437,2016.0,New Hampshire,4.0,31979.0,Private,,Fees,Tuition
 1438,2016.0,New Hampshire,4.0,,Private,,Room,Board
@@ -1328,17 +1328,17 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1455,2016.0,New Mexico,2.0,1553.0,Public,In-State,Fees,Tuition
 1456,2016.0,New Mexico,4.0,6262.0,Public,In-State,Fees,Tuition
 1459,2016.0,New Mexico,4.0,15842.0,Public,Out-of-State,Fees,Tuition
-1460,2016.0,New Mexico,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+1460,2016.0,New Mexico,4.0,,Public,Out-of-State,Room,Board
 1461,2016.0,New York,4.0,36361.0,Private,,Fees,Tuition
 1462,2016.0,New York,4.0,13935.0,Private,,Room,Board
 1463,2016.0,New York,2.0,4969.0,Public,In-State,Fees,Tuition
 1464,2016.0,New York,4.0,7647.0,Public,In-State,Fees,Tuition
 1466,2016.0,New York,2.0,8756.0,Public,Out-of-State,Fees,Tuition
 1467,2016.0,New York,4.0,20305.0,Public,Out-of-State,Fees,Tuition
-1468,2016.0,New York,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+1468,2016.0,New York,4.0,,Public,Out-of-State,Room,Board
 1469,2016.0,North Carolina,4.0,29307.0,Private,,Fees,Tuition
 1470,2016.0,North Carolina,4.0,11225.0,Private,,Room,Board
-1471,2016.0,North Carolina,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+1471,2016.0,North Carolina,2.0,,Public,In-State,Fees,Tuition
 1472,2016.0,North Carolina,4.0,6944.0,Public,In-State,Fees,Tuition
 1473,2016.0,North Carolina,4.0,9421.0,Public,In-State,Room,Board
 1476,2016.0,North Carolina,4.0,9421.0,Public,Out-of-State,Room,Board
@@ -1356,12 +1356,12 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1489,2016.0,Ohio,4.0,11174.0,Public,In-State,Room,Board
 1490,2016.0,Ohio,2.0,7738.0,Public,Out-of-State,Fees,Tuition
 1491,2016.0,Ohio,4.0,23179.0,Public,Out-of-State,Fees,Tuition
-1492,2016.0,Ohio,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+1492,2016.0,Ohio,4.0,,Public,Out-of-State,Room,Board
 1493,2016.0,Oklahoma,4.0,23658.0,Private,,Fees,Tuition
 1494,2016.0,Oklahoma,4.0,8645.0,Private,,Room,Board
 1495,2016.0,Oklahoma,2.0,3349.0,Public,In-State,Fees,Tuition
 1496,2016.0,Oklahoma,4.0,6680.0,Public,In-State,Fees,Tuition
-1497,2016.0,Oklahoma,4.0,7706.03776683087,Public,In-State,Room,Board
+1497,2016.0,Oklahoma,4.0,,Public,In-State,Room,Board
 1498,2016.0,Oklahoma,2.0,8019.0,Public,Out-of-State,Fees,Tuition
 1500,2016.0,Oklahoma,4.0,7998.0,Public,Out-of-State,Room,Board
 1502,2016.0,Oregon,4.0,11228.0,Private,,Room,Board
@@ -1382,7 +1382,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1518,2016.0,Rhode Island,4.0,13647.0,Private,,Room,Board
 1519,2016.0,Rhode Island,2.0,4266.0,Public,In-State,Fees,Tuition
 1520,2016.0,Rhode Island,4.0,11321.0,Public,In-State,Fees,Tuition
-1521,2016.0,Rhode Island,4.0,7706.03776683087,Public,In-State,Room,Board
+1521,2016.0,Rhode Island,4.0,,Public,In-State,Room,Board
 1522,2016.0,Rhode Island,2.0,11496.0,Public,Out-of-State,Fees,Tuition
 1523,2016.0,Rhode Island,4.0,27967.0,Public,Out-of-State,Fees,Tuition
 1524,2016.0,Rhode Island,4.0,11401.0,Public,Out-of-State,Room,Board
@@ -1410,7 +1410,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1549,2016.0,Texas,4.0,28880.0,Private,,Fees,Tuition
 1550,2016.0,Texas,4.0,10734.0,Private,,Room,Board
 1551,2016.0,Texas,2.0,2017.0,Public,In-State,Fees,Tuition
-1552,2016.0,Texas,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+1552,2016.0,Texas,4.0,,Public,In-State,Fees,Tuition
 1553,2016.0,Texas,4.0,9304.0,Public,In-State,Room,Board
 1556,2016.0,Texas,4.0,9304.0,Public,Out-of-State,Room,Board
 1557,2016.0,Utah,4.0,7571.0,Private,,Fees,Tuition
@@ -1429,7 +1429,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1572,2016.0,Vermont,4.0,10848.0,Public,Out-of-State,Room,Board
 1574,2016.0,Virginia,4.0,9901.0,Private,,Room,Board
 1575,2016.0,Virginia,2.0,4793.0,Public,In-State,Fees,Tuition
-1576,2016.0,Virginia,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+1576,2016.0,Virginia,4.0,,Public,In-State,Fees,Tuition
 1577,2016.0,Virginia,4.0,10220.0,Public,In-State,Room,Board
 1578,2016.0,Virginia,2.0,10867.0,Public,Out-of-State,Fees,Tuition
 1579,2016.0,Virginia,4.0,31559.0,Public,Out-of-State,Fees,Tuition
@@ -1437,7 +1437,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1581,2016.0,Washington,4.0,34412.0,Private,,Fees,Tuition
 1582,2016.0,Washington,4.0,,Private,,Room,Board
 1583,2016.0,Washington,2.0,3771.0,Public,In-State,Fees,Tuition
-1584,2016.0,Washington,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+1584,2016.0,Washington,4.0,,Public,In-State,Fees,Tuition
 1585,2016.0,Washington,4.0,10883.0,Public,In-State,Room,Board
 1586,2016.0,Washington,2.0,6565.0,Public,Out-of-State,Fees,Tuition
 1587,2016.0,Washington,4.0,28849.0,Public,Out-of-State,Fees,Tuition
@@ -1447,10 +1447,10 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1591,2016.0,West Virginia,2.0,3825.0,Public,In-State,Fees,Tuition
 1592,2016.0,West Virginia,4.0,6900.0,Public,In-State,Fees,Tuition
 1593,2016.0,West Virginia,4.0,9527.0,Public,In-State,Room,Board
-1594,2016.0,West Virginia,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1594,2016.0,West Virginia,2.0,,Public,Out-of-State,Fees,Tuition
 1597,2016.0,Wisconsin,4.0,29777.0,Private,,Fees,Tuition
 1598,2016.0,Wisconsin,4.0,9586.0,Private,,Room,Board
-1599,2016.0,Wisconsin,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+1599,2016.0,Wisconsin,2.0,,Public,In-State,Fees,Tuition
 1601,2016.0,Wisconsin,4.0,7690.0,Public,In-State,Room,Board
 1602,2016.0,Wisconsin,2.0,7336.0,Public,Out-of-State,Fees,Tuition
 1603,2016.0,Wisconsin,4.0,21327.0,Public,Out-of-State,Fees,Tuition
@@ -1491,7 +1491,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1643,2017.0,Arkansas,4.0,8947.0,Public,Out-of-State,Room,Board
 1644,2017.0,California,4.0,31495.0,Private,,Fees,Tuition
 1645,2017.0,California,4.0,13227.0,Private,,Room,Board
-1646,2017.0,California,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+1646,2017.0,California,2.0,,Public,In-State,Fees,Tuition
 1647,2017.0,California,4.0,7896.0,Public,In-State,Fees,Tuition
 1649,2017.0,California,2.0,7120.0,Public,Out-of-State,Fees,Tuition
 1651,2017.0,California,4.0,13459.0,Public,Out-of-State,Room,Board
@@ -1525,7 +1525,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1687,2017.0,Georgia,4.0,11897.0,Private,,Room,Board
 1689,2017.0,Georgia,4.0,7010.0,Public,In-State,Fees,Tuition
 1690,2017.0,Georgia,4.0,10343.0,Public,In-State,Room,Board
-1692,2017.0,Georgia,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1692,2017.0,Georgia,4.0,,Public,Out-of-State,Fees,Tuition
 1693,2017.0,Georgia,4.0,10343.0,Public,Out-of-State,Room,Board
 1694,2017.0,Hawaii,4.0,15949.0,Private,,Fees,Tuition
 1695,2017.0,Hawaii,4.0,12443.0,Private,,Room,Board
@@ -1582,7 +1582,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1760,2017.0,Maine,2.0,3673.0,Public,In-State,Fees,Tuition
 1761,2017.0,Maine,4.0,9219.0,Public,In-State,Fees,Tuition
 1762,2017.0,Maine,4.0,9854.0,Public,In-State,Room,Board
-1763,2017.0,Maine,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1763,2017.0,Maine,2.0,,Public,Out-of-State,Fees,Tuition
 1764,2017.0,Maine,4.0,26004.0,Public,Out-of-State,Fees,Tuition
 1765,2017.0,Maine,4.0,9854.0,Public,Out-of-State,Room,Board
 1766,2017.0,Maryland,4.0,40209.0,Private,,Fees,Tuition
@@ -1596,9 +1596,9 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1774,2017.0,Massachusetts,4.0,42655.0,Private,,Fees,Tuition
 1775,2017.0,Massachusetts,4.0,14708.0,Private,,Room,Board
 1776,2017.0,Massachusetts,2.0,4785.0,Public,In-State,Fees,Tuition
-1777,2017.0,Massachusetts,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+1777,2017.0,Massachusetts,4.0,,Public,In-State,Fees,Tuition
 1778,2017.0,Massachusetts,4.0,12142.0,Public,In-State,Room,Board
-1779,2017.0,Massachusetts,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1779,2017.0,Massachusetts,2.0,,Public,Out-of-State,Fees,Tuition
 1780,2017.0,Massachusetts,4.0,28740.0,Public,Out-of-State,Fees,Tuition
 1781,2017.0,Massachusetts,4.0,12142.0,Public,Out-of-State,Room,Board
 1782,2017.0,Michigan,4.0,24058.0,Private,,Fees,Tuition
@@ -1626,13 +1626,13 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1806,2017.0,Missouri,4.0,23702.0,Private,,Fees,Tuition
 1807,2017.0,Missouri,4.0,9731.0,Private,,Room,Board
 1808,2017.0,Missouri,2.0,3028.0,Public,In-State,Fees,Tuition
-1810,2017.0,Missouri,4.0,7706.03776683087,Public,In-State,Room,Board
+1810,2017.0,Missouri,4.0,,Public,In-State,Room,Board
 1811,2017.0,Missouri,2.0,5737.0,Public,Out-of-State,Fees,Tuition
 1812,2017.0,Missouri,4.0,18940.0,Public,Out-of-State,Fees,Tuition
 1813,2017.0,Missouri,4.0,9463.0,Public,Out-of-State,Room,Board
 1814,2017.0,Montana,4.0,23657.0,Private,,Fees,Tuition
 1815,2017.0,Montana,4.0,8718.0,Private,,Room,Board
-1816,2017.0,Montana,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+1816,2017.0,Montana,2.0,,Public,In-State,Fees,Tuition
 1817,2017.0,Montana,4.0,6503.0,Public,In-State,Fees,Tuition
 1819,2017.0,Montana,2.0,8210.0,Public,Out-of-State,Fees,Tuition
 1820,2017.0,Montana,4.0,22956.0,Public,Out-of-State,Fees,Tuition
@@ -1669,7 +1669,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1856,2017.0,New Mexico,2.0,1590.0,Public,In-State,Fees,Tuition
 1858,2017.0,New Mexico,4.0,8704.0,Public,In-State,Room,Board
 1860,2017.0,New Mexico,4.0,17272.0,Public,Out-of-State,Fees,Tuition
-1864,2017.0,New York,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+1864,2017.0,New York,2.0,,Public,In-State,Fees,Tuition
 1865,2017.0,New York,4.0,7709.0,Public,In-State,Fees,Tuition
 1866,2017.0,New York,4.0,14042.0,Public,In-State,Room,Board
 1867,2017.0,New York,2.0,8857.0,Public,Out-of-State,Fees,Tuition
@@ -1688,7 +1688,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1880,2017.0,North Dakota,2.0,4562.0,Public,In-State,Fees,Tuition
 1881,2017.0,North Dakota,4.0,7376.0,Public,In-State,Fees,Tuition
 1882,2017.0,North Dakota,4.0,8011.0,Public,In-State,Room,Board
-1883,2017.0,North Dakota,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1883,2017.0,North Dakota,2.0,,Public,Out-of-State,Fees,Tuition
 1885,2017.0,North Dakota,4.0,8011.0,Public,Out-of-State,Room,Board
 1886,2017.0,Ohio,4.0,30296.0,Private,,Fees,Tuition
 1887,2017.0,Ohio,4.0,10685.0,Private,,Room,Board
@@ -1702,7 +1702,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1897,2017.0,Oklahoma,4.0,7219.0,Public,In-State,Fees,Tuition
 1898,2017.0,Oklahoma,4.0,8536.0,Public,In-State,Room,Board
 1899,2017.0,Oklahoma,2.0,8582.0,Public,Out-of-State,Fees,Tuition
-1900,2017.0,Oklahoma,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1900,2017.0,Oklahoma,4.0,,Public,Out-of-State,Fees,Tuition
 1901,2017.0,Oklahoma,4.0,8536.0,Public,Out-of-State,Room,Board
 1902,2017.0,Oregon,4.0,37088.0,Private,,Fees,Tuition
 1903,2017.0,Oregon,4.0,,Private,,Room,Board
@@ -1716,7 +1716,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1911,2017.0,Pennsylvania,4.0,12947.0,Private,,Room,Board
 1912,2017.0,Pennsylvania,2.0,5048.0,Public,In-State,Fees,Tuition
 1913,2017.0,Pennsylvania,4.0,14068.0,Public,In-State,Fees,Tuition
-1914,2017.0,Pennsylvania,4.0,7706.03776683087,Public,In-State,Room,Board
+1914,2017.0,Pennsylvania,4.0,,Public,In-State,Room,Board
 1915,2017.0,Pennsylvania,2.0,12833.0,Public,Out-of-State,Fees,Tuition
 1916,2017.0,Pennsylvania,4.0,26328.0,Public,Out-of-State,Fees,Tuition
 1917,2017.0,Pennsylvania,4.0,11264.0,Public,Out-of-State,Room,Board
@@ -1753,7 +1753,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1952,2017.0,Texas,2.0,2099.0,Public,In-State,Fees,Tuition
 1954,2017.0,Texas,4.0,9424.0,Public,In-State,Room,Board
 1955,2017.0,Texas,2.0,6100.0,Public,Out-of-State,Fees,Tuition
-1956,2017.0,Texas,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+1956,2017.0,Texas,4.0,,Public,Out-of-State,Fees,Tuition
 1957,2017.0,Texas,4.0,9424.0,Public,Out-of-State,Room,Board
 1958,2017.0,Utah,4.0,7445.0,Private,,Fees,Tuition
 1959,2017.0,Utah,4.0,7766.0,Private,,Room,Board
@@ -1783,7 +1783,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 1983,2017.0,Washington,4.0,11458.0,Private,,Room,Board
 1984,2017.0,Washington,2.0,3848.0,Public,In-State,Fees,Tuition
 1985,2017.0,Washington,4.0,6903.0,Public,In-State,Fees,Tuition
-1986,2017.0,Washington,4.0,7706.03776683087,Public,In-State,Room,Board
+1986,2017.0,Washington,4.0,,Public,In-State,Room,Board
 1988,2017.0,Washington,4.0,28128.0,Public,Out-of-State,Fees,Tuition
 1989,2017.0,Washington,4.0,11150.0,Public,Out-of-State,Room,Board
 1990,2017.0,West Virginia,4.0,12206.0,Private,,Fees,Tuition
@@ -1829,7 +1829,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2035,2018.0,Arkansas,4.0,22610.0,Private,,Fees,Tuition
 2037,2018.0,Arkansas,2.0,3291.0,Public,In-State,Fees,Tuition
 2038,2018.0,Arkansas,4.0,8187.0,Public,In-State,Fees,Tuition
-2039,2018.0,Arkansas,4.0,7706.03776683087,Public,In-State,Room,Board
+2039,2018.0,Arkansas,4.0,,Public,In-State,Room,Board
 2040,2018.0,Arkansas,2.0,4762.0,Public,Out-of-State,Fees,Tuition
 2041,2018.0,Arkansas,4.0,20061.0,Public,Out-of-State,Fees,Tuition
 2042,2018.0,Arkansas,4.0,9292.0,Public,Out-of-State,Room,Board
@@ -1873,13 +1873,13 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2086,2018.0,Georgia,4.0,12600.0,Private,,Room,Board
 2087,2018.0,Georgia,2.0,2901.0,Public,In-State,Fees,Tuition
 2088,2018.0,Georgia,4.0,7206.0,Public,In-State,Fees,Tuition
-2089,2018.0,Georgia,4.0,7706.03776683087,Public,In-State,Room,Board
-2090,2018.0,Georgia,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
-2091,2018.0,Georgia,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2089,2018.0,Georgia,4.0,,Public,In-State,Room,Board
+2090,2018.0,Georgia,2.0,,Public,Out-of-State,Fees,Tuition
+2091,2018.0,Georgia,4.0,,Public,Out-of-State,Fees,Tuition
 2092,2018.0,Georgia,4.0,10499.0,Public,Out-of-State,Room,Board
 2093,2018.0,Hawaii,4.0,16447.0,Private,,Fees,Tuition
 2094,2018.0,Hawaii,4.0,12411.0,Private,,Room,Board
-2096,2018.0,Hawaii,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+2096,2018.0,Hawaii,4.0,,Public,In-State,Fees,Tuition
 2097,2018.0,Hawaii,4.0,11492.0,Public,In-State,Room,Board
 2098,2018.0,Hawaii,2.0,8216.0,Public,Out-of-State,Fees,Tuition
 2099,2018.0,Hawaii,4.0,31019.0,Public,Out-of-State,Fees,Tuition
@@ -1903,7 +1903,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2118,2018.0,Indiana,4.0,11425.0,Private,,Room,Board
 2119,2018.0,Indiana,2.0,4255.0,Public,In-State,Fees,Tuition
 2120,2018.0,Indiana,4.0,9038.0,Public,In-State,Fees,Tuition
-2121,2018.0,Indiana,4.0,7706.03776683087,Public,In-State,Room,Board
+2121,2018.0,Indiana,4.0,,Public,In-State,Room,Board
 2122,2018.0,Indiana,2.0,8211.0,Public,Out-of-State,Fees,Tuition
 2123,2018.0,Indiana,4.0,28805.0,Public,Out-of-State,Fees,Tuition
 2124,2018.0,Indiana,4.0,10259.0,Public,Out-of-State,Room,Board
@@ -1956,12 +1956,12 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2172,2018.0,Maryland,4.0,11888.0,Public,Out-of-State,Room,Board
 2173,2018.0,Massachusetts,4.0,44384.0,Private,,Fees,Tuition
 2174,2018.0,Massachusetts,4.0,15175.0,Private,,Room,Board
-2175,2018.0,Massachusetts,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+2175,2018.0,Massachusetts,2.0,,Public,In-State,Fees,Tuition
 2176,2018.0,Massachusetts,4.0,12778.0,Public,In-State,Fees,Tuition
 2177,2018.0,Massachusetts,4.0,12451.0,Public,In-State,Room,Board
 2178,2018.0,Massachusetts,2.0,10006.0,Public,Out-of-State,Fees,Tuition
 2179,2018.0,Massachusetts,4.0,29774.0,Public,Out-of-State,Fees,Tuition
-2180,2018.0,Massachusetts,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+2180,2018.0,Massachusetts,4.0,,Public,Out-of-State,Room,Board
 2181,2018.0,Michigan,4.0,26964.0,Private,,Fees,Tuition
 2182,2018.0,Michigan,4.0,9700.0,Private,,Room,Board
 2183,2018.0,Michigan,2.0,3469.0,Public,In-State,Fees,Tuition
@@ -1974,7 +1974,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2191,2018.0,Minnesota,2.0,5381.0,Public,In-State,Fees,Tuition
 2192,2018.0,Minnesota,4.0,11226.0,Public,In-State,Fees,Tuition
 2193,2018.0,Minnesota,4.0,9194.0,Public,In-State,Room,Board
-2194,2018.0,Minnesota,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2194,2018.0,Minnesota,2.0,,Public,Out-of-State,Fees,Tuition
 2195,2018.0,Minnesota,4.0,20736.0,Public,Out-of-State,Fees,Tuition
 2198,2018.0,Mississippi,4.0,8149.0,Private,,Room,Board
 2199,2018.0,Mississippi,2.0,3182.0,Public,In-State,Fees,Tuition
@@ -1996,7 +1996,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2216,2018.0,Montana,4.0,6783.0,Public,In-State,Fees,Tuition
 2217,2018.0,Montana,4.0,9018.0,Public,In-State,Room,Board
 2218,2018.0,Montana,2.0,8482.0,Public,Out-of-State,Fees,Tuition
-2219,2018.0,Montana,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2219,2018.0,Montana,4.0,,Public,Out-of-State,Fees,Tuition
 2220,2018.0,Montana,4.0,9018.0,Public,Out-of-State,Room,Board
 2221,2018.0,Nebraska,4.0,23659.0,Private,,Fees,Tuition
 2222,2018.0,Nebraska,4.0,10939.0,Private,,Room,Board
@@ -2020,7 +2020,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2240,2018.0,New Hampshire,4.0,15949.0,Public,In-State,Fees,Tuition
 2241,2018.0,New Hampshire,4.0,11621.0,Public,In-State,Room,Board
 2242,2018.0,New Hampshire,2.0,15906.0,Public,Out-of-State,Fees,Tuition
-2243,2018.0,New Hampshire,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2243,2018.0,New Hampshire,4.0,,Public,Out-of-State,Fees,Tuition
 2244,2018.0,New Hampshire,4.0,11621.0,Public,Out-of-State,Room,Board
 2245,2018.0,New Jersey,4.0,36589.0,Private,,Fees,Tuition
 2246,2018.0,New Jersey,4.0,13732.0,Private,,Room,Board
@@ -2037,13 +2037,13 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2257,2018.0,New Mexico,4.0,9085.0,Public,In-State,Room,Board
 2258,2018.0,New Mexico,2.0,5318.0,Public,Out-of-State,Fees,Tuition
 2259,2018.0,New Mexico,4.0,17533.0,Public,Out-of-State,Fees,Tuition
-2260,2018.0,New Mexico,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+2260,2018.0,New Mexico,4.0,,Public,Out-of-State,Room,Board
 2261,2018.0,New York,4.0,39007.0,Private,,Fees,Tuition
 2263,2018.0,New York,2.0,5229.0,Public,In-State,Fees,Tuition
 2264,2018.0,New York,4.0,7938.0,Public,In-State,Fees,Tuition
 2265,2018.0,New York,4.0,14405.0,Public,In-State,Room,Board
 2266,2018.0,New York,2.0,9151.0,Public,Out-of-State,Fees,Tuition
-2267,2018.0,New York,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2267,2018.0,New York,4.0,,Public,Out-of-State,Fees,Tuition
 2268,2018.0,New York,4.0,14405.0,Public,Out-of-State,Room,Board
 2269,2018.0,North Carolina,4.0,32140.0,Private,,Fees,Tuition
 2270,2018.0,North Carolina,4.0,11910.0,Private,,Room,Board
@@ -2085,13 +2085,13 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2312,2018.0,Pennsylvania,4.0,14534.0,Public,In-State,Fees,Tuition
 2313,2018.0,Pennsylvania,4.0,11261.0,Public,In-State,Room,Board
 2314,2018.0,Pennsylvania,2.0,13679.0,Public,Out-of-State,Fees,Tuition
-2316,2018.0,Pennsylvania,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+2316,2018.0,Pennsylvania,4.0,,Public,Out-of-State,Room,Board
 2317,2018.0,Rhode Island,4.0,40361.0,Private,,Fees,Tuition
 2318,2018.0,Rhode Island,4.0,14516.0,Private,,Room,Board
 2319,2018.0,Rhode Island,2.0,4564.0,Public,In-State,Fees,Tuition
 2320,2018.0,Rhode Island,4.0,12239.0,Public,In-State,Fees,Tuition
 2321,2018.0,Rhode Island,4.0,12041.0,Public,In-State,Room,Board
-2322,2018.0,Rhode Island,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2322,2018.0,Rhode Island,2.0,,Public,Out-of-State,Fees,Tuition
 2323,2018.0,Rhode Island,4.0,29013.0,Public,Out-of-State,Fees,Tuition
 2324,2018.0,Rhode Island,4.0,12041.0,Public,Out-of-State,Room,Board
 2325,2018.0,South Carolina,4.0,24931.0,Private,,Fees,Tuition
@@ -2107,11 +2107,11 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2337,2018.0,South Dakota,4.0,7881.0,Public,In-State,Room,Board
 2338,2018.0,South Dakota,2.0,5853.0,Public,Out-of-State,Fees,Tuition
 2339,2018.0,South Dakota,4.0,12060.0,Public,Out-of-State,Fees,Tuition
-2340,2018.0,South Dakota,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+2340,2018.0,South Dakota,4.0,,Public,Out-of-State,Room,Board
 2341,2018.0,Tennessee,4.0,26939.0,Private,,Fees,Tuition
 2342,2018.0,Tennessee,4.0,10223.0,Private,,Room,Board
 2344,2018.0,Tennessee,4.0,9574.0,Public,In-State,Fees,Tuition
-2345,2018.0,Tennessee,4.0,7706.03776683087,Public,In-State,Room,Board
+2345,2018.0,Tennessee,4.0,,Public,In-State,Room,Board
 2346,2018.0,Tennessee,2.0,16140.0,Public,Out-of-State,Fees,Tuition
 2347,2018.0,Tennessee,4.0,25378.0,Public,Out-of-State,Fees,Tuition
 2348,2018.0,Tennessee,4.0,9376.0,Public,Out-of-State,Room,Board
@@ -2142,7 +2142,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2374,2018.0,Virginia,4.0,10644.0,Private,,Room,Board
 2375,2018.0,Virginia,2.0,5118.0,Public,In-State,Fees,Tuition
 2376,2018.0,Virginia,4.0,12637.0,Public,In-State,Fees,Tuition
-2377,2018.0,Virginia,4.0,7706.03776683087,Public,In-State,Room,Board
+2377,2018.0,Virginia,4.0,,Public,In-State,Room,Board
 2378,2018.0,Virginia,2.0,11275.0,Public,Out-of-State,Fees,Tuition
 2379,2018.0,Virginia,4.0,33428.0,Public,Out-of-State,Fees,Tuition
 2381,2018.0,Washington,4.0,36807.0,Private,,Fees,Tuition
@@ -2191,7 +2191,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2429,2019.0,Arizona,4.0,12439.0,Public,In-State,Room,Board
 2430,2019.0,Arizona,2.0,8516.0,Public,Out-of-State,Fees,Tuition
 2431,2019.0,Arizona,4.0,26383.0,Public,Out-of-State,Fees,Tuition
-2432,2019.0,Arizona,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+2432,2019.0,Arizona,4.0,,Public,Out-of-State,Room,Board
 2433,2019.0,Arkansas,4.0,23179.0,Private,,Fees,Tuition
 2434,2019.0,Arkansas,4.0,8385.0,Private,,Room,Board
 2435,2019.0,Arkansas,2.0,3291.0,Public,In-State,Fees,Tuition
@@ -2221,7 +2221,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2460,2019.0,Connecticut,4.0,12959.0,Public,In-State,Fees,Tuition
 2461,2019.0,Connecticut,4.0,13244.0,Public,In-State,Room,Board
 2462,2019.0,Connecticut,2.0,13202.0,Public,Out-of-State,Fees,Tuition
-2463,2019.0,Connecticut,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2463,2019.0,Connecticut,4.0,,Public,Out-of-State,Fees,Tuition
 2464,2019.0,Connecticut,4.0,13244.0,Public,Out-of-State,Room,Board
 2466,2019.0,Delaware,4.0,11952.0,Private,,Room,Board
 2467,2019.0,Delaware,4.0,10607.0,Public,In-State,Fees,Tuition
@@ -2247,7 +2247,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2489,2019.0,Georgia,4.0,22751.0,Public,Out-of-State,Fees,Tuition
 2490,2019.0,Georgia,4.0,10683.0,Public,Out-of-State,Room,Board
 2491,2019.0,Hawaii,4.0,17098.0,Private,,Fees,Tuition
-2493,2019.0,Hawaii,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+2493,2019.0,Hawaii,2.0,,Public,In-State,Fees,Tuition
 2494,2019.0,Hawaii,4.0,9952.0,Public,In-State,Fees,Tuition
 2495,2019.0,Hawaii,4.0,11914.0,Public,In-State,Room,Board
 2496,2019.0,Hawaii,2.0,8277.0,Public,Out-of-State,Fees,Tuition
@@ -2256,7 +2256,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2499,2019.0,Idaho,4.0,6139.0,Private,,Fees,Tuition
 2500,2019.0,Idaho,4.0,7019.0,Private,,Room,Board
 2501,2019.0,Idaho,2.0,3345.0,Public,In-State,Fees,Tuition
-2502,2019.0,Idaho,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+2502,2019.0,Idaho,4.0,,Public,In-State,Fees,Tuition
 2503,2019.0,Idaho,4.0,8549.0,Public,In-State,Room,Board
 2504,2019.0,Idaho,2.0,7971.0,Public,Out-of-State,Fees,Tuition
 2505,2019.0,Idaho,4.0,23850.0,Public,Out-of-State,Fees,Tuition
@@ -2275,7 +2275,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2518,2019.0,Indiana,4.0,9225.0,Public,In-State,Fees,Tuition
 2519,2019.0,Indiana,4.0,10530.0,Public,In-State,Room,Board
 2520,2019.0,Indiana,2.0,8402.0,Public,Out-of-State,Fees,Tuition
-2521,2019.0,Indiana,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2521,2019.0,Indiana,4.0,,Public,Out-of-State,Fees,Tuition
 2522,2019.0,Indiana,4.0,10530.0,Public,Out-of-State,Room,Board
 2523,2019.0,Iowa,4.0,33821.0,Private,,Fees,Tuition
 2524,2019.0,Iowa,4.0,9543.0,Private,,Room,Board
@@ -2295,7 +2295,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2540,2019.0,Kentucky,4.0,9433.0,Private,,Room,Board
 2541,2019.0,Kentucky,2.0,4274.0,Public,In-State,Fees,Tuition
 2542,2019.0,Kentucky,4.0,10674.0,Public,In-State,Fees,Tuition
-2543,2019.0,Kentucky,4.0,7706.03776683087,Public,In-State,Room,Board
+2543,2019.0,Kentucky,4.0,,Public,In-State,Room,Board
 2544,2019.0,Kentucky,2.0,14418.0,Public,Out-of-State,Fees,Tuition
 2545,2019.0,Kentucky,4.0,25430.0,Public,Out-of-State,Fees,Tuition
 2546,2019.0,Kentucky,4.0,10639.0,Public,Out-of-State,Room,Board
@@ -2317,9 +2317,9 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2562,2019.0,Maine,4.0,10265.0,Public,Out-of-State,Room,Board
 2563,2019.0,Maryland,4.0,43141.0,Private,,Fees,Tuition
 2564,2019.0,Maryland,4.0,14081.0,Private,,Room,Board
-2565,2019.0,Maryland,2.0,7706.03776683087,Public,In-State,Fees,Tuition
-2566,2019.0,Maryland,4.0,7706.03776683087,Public,In-State,Fees,Tuition
-2567,2019.0,Maryland,4.0,7706.03776683087,Public,In-State,Room,Board
+2565,2019.0,Maryland,2.0,,Public,In-State,Fees,Tuition
+2566,2019.0,Maryland,4.0,,Public,In-State,Fees,Tuition
+2567,2019.0,Maryland,4.0,,Public,In-State,Room,Board
 2568,2019.0,Maryland,2.0,9990.0,Public,Out-of-State,Fees,Tuition
 2569,2019.0,Maryland,4.0,26883.0,Public,Out-of-State,Fees,Tuition
 2570,2019.0,Maryland,4.0,12374.0,Public,Out-of-State,Room,Board
@@ -2332,11 +2332,11 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2578,2019.0,Massachusetts,4.0,13501.0,Public,Out-of-State,Room,Board
 2579,2019.0,Michigan,4.0,27936.0,Private,,Fees,Tuition
 2580,2019.0,Michigan,4.0,10139.0,Private,,Room,Board
-2581,2019.0,Michigan,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+2581,2019.0,Michigan,2.0,,Public,In-State,Fees,Tuition
 2582,2019.0,Michigan,4.0,12888.0,Public,In-State,Fees,Tuition
 2583,2019.0,Michigan,4.0,10488.0,Public,In-State,Room,Board
 2584,2019.0,Michigan,2.0,6372.0,Public,Out-of-State,Fees,Tuition
-2585,2019.0,Michigan,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2585,2019.0,Michigan,4.0,,Public,Out-of-State,Fees,Tuition
 2586,2019.0,Michigan,4.0,10488.0,Public,Out-of-State,Room,Board
 2587,2019.0,Minnesota,4.0,,Private,,Fees,Tuition
 2588,2019.0,Minnesota,4.0,10465.0,Private,,Room,Board
@@ -2393,7 +2393,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2642,2019.0,New Jersey,4.0,13716.0,Private,,Room,Board
 2643,2019.0,New Jersey,2.0,4715.0,Public,In-State,Fees,Tuition
 2644,2019.0,New Jersey,4.0,13963.0,Public,In-State,Fees,Tuition
-2645,2019.0,New Jersey,4.0,7706.03776683087,Public,In-State,Room,Board
+2645,2019.0,New Jersey,4.0,,Public,In-State,Room,Board
 2646,2019.0,New Jersey,2.0,8257.0,Public,Out-of-State,Fees,Tuition
 2649,2019.0,New Mexico,4.0,30137.0,Private,,Fees,Tuition
 2650,2019.0,New Mexico,4.0,10069.0,Private,,Room,Board
@@ -2402,7 +2402,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2653,2019.0,New Mexico,4.0,9354.0,Public,In-State,Room,Board
 2654,2019.0,New Mexico,2.0,6698.0,Public,Out-of-State,Fees,Tuition
 2655,2019.0,New Mexico,4.0,18350.0,Public,Out-of-State,Fees,Tuition
-2656,2019.0,New Mexico,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+2656,2019.0,New Mexico,4.0,,Public,Out-of-State,Room,Board
 2657,2019.0,New York,4.0,40527.0,Private,,Fees,Tuition
 2658,2019.0,New York,4.0,15214.0,Private,,Room,Board
 2659,2019.0,New York,2.0,5367.0,Public,In-State,Fees,Tuition
@@ -2423,7 +2423,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2676,2019.0,North Dakota,4.0,8091.0,Public,In-State,Fees,Tuition
 2678,2019.0,North Dakota,2.0,9293.0,Public,Out-of-State,Fees,Tuition
 2679,2019.0,North Dakota,4.0,15565.0,Public,Out-of-State,Fees,Tuition
-2680,2019.0,North Dakota,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+2680,2019.0,North Dakota,4.0,,Public,Out-of-State,Room,Board
 2681,2019.0,Ohio,4.0,32597.0,Private,,Fees,Tuition
 2682,2019.0,Ohio,4.0,11438.0,Private,,Room,Board
 2683,2019.0,Ohio,2.0,4082.0,Public,In-State,Fees,Tuition
@@ -2444,7 +2444,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2698,2019.0,Oregon,4.0,12439.0,Private,,Room,Board
 2699,2019.0,Oregon,2.0,4709.0,Public,In-State,Fees,Tuition
 2700,2019.0,Oregon,4.0,10286.0,Public,In-State,Fees,Tuition
-2701,2019.0,Oregon,4.0,7706.03776683087,Public,In-State,Room,Board
+2701,2019.0,Oregon,4.0,,Public,In-State,Room,Board
 2702,2019.0,Oregon,2.0,8779.0,Public,Out-of-State,Fees,Tuition
 2703,2019.0,Oregon,4.0,30929.0,Public,Out-of-State,Fees,Tuition
 2704,2019.0,Oregon,4.0,12299.0,Public,Out-of-State,Room,Board
@@ -2468,7 +2468,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2722,2019.0,South Carolina,4.0,9553.0,Private,,Room,Board
 2723,2019.0,South Carolina,2.0,4728.0,Public,In-State,Fees,Tuition
 2725,2019.0,South Carolina,4.0,10100.0,Public,In-State,Room,Board
-2726,2019.0,South Carolina,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2726,2019.0,South Carolina,2.0,,Public,Out-of-State,Fees,Tuition
 2728,2019.0,South Carolina,4.0,10100.0,Public,Out-of-State,Room,Board
 2729,2019.0,South Dakota,4.0,23252.0,Private,,Fees,Tuition
 2730,2019.0,South Dakota,4.0,,Private,,Room,Board
@@ -2486,13 +2486,13 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2746,2019.0,Texas,4.0,11792.0,Private,,Room,Board
 2747,2019.0,Texas,2.0,2259.0,Public,In-State,Fees,Tuition
 2748,2019.0,Texas,4.0,8678.0,Public,In-State,Fees,Tuition
-2750,2019.0,Texas,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2750,2019.0,Texas,2.0,,Public,Out-of-State,Fees,Tuition
 2751,2019.0,Texas,4.0,25031.0,Public,Out-of-State,Fees,Tuition
 2752,2019.0,Texas,4.0,10101.0,Public,Out-of-State,Room,Board
 2753,2019.0,Utah,4.0,7852.0,Private,,Fees,Tuition
 2754,2019.0,Utah,4.0,7952.0,Private,,Room,Board
 2755,2019.0,Utah,2.0,3843.0,Public,In-State,Fees,Tuition
-2756,2019.0,Utah,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+2756,2019.0,Utah,4.0,,Public,In-State,Fees,Tuition
 2757,2019.0,Utah,4.0,7658.0,Public,In-State,Room,Board
 2758,2019.0,Utah,2.0,12206.0,Public,Out-of-State,Fees,Tuition
 2759,2019.0,Utah,4.0,21557.0,Public,Out-of-State,Fees,Tuition
@@ -2503,7 +2503,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2764,2019.0,Vermont,4.0,16604.0,Public,In-State,Fees,Tuition
 2765,2019.0,Vermont,4.0,12077.0,Public,In-State,Room,Board
 2766,2019.0,Vermont,2.0,14090.0,Public,Out-of-State,Fees,Tuition
-2768,2019.0,Vermont,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+2768,2019.0,Vermont,4.0,,Public,Out-of-State,Room,Board
 2769,2019.0,Virginia,4.0,23380.0,Private,,Fees,Tuition
 2770,2019.0,Virginia,4.0,11089.0,Private,,Room,Board
 2771,2019.0,Virginia,2.0,5241.0,Public,In-State,Fees,Tuition
@@ -2535,7 +2535,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2800,2019.0,Wisconsin,4.0,8475.0,Public,Out-of-State,Room,Board
 2802,2019.0,Wyoming,4.0,4596.0,Public,In-State,Fees,Tuition
 2804,2019.0,Wyoming,2.0,7752.0,Public,Out-of-State,Fees,Tuition
-2805,2019.0,Wyoming,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2805,2019.0,Wyoming,4.0,,Public,Out-of-State,Fees,Tuition
 2806,2019.0,Wyoming,4.0,10043.0,Public,Out-of-State,Room,Board
 2807,2020.0,Alabama,4.0,,Private,,Fees,Tuition
 2808,2020.0,Alabama,4.0,10344.0,Private,,Room,Board
@@ -2616,7 +2616,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2890,2020.0,Hawaii,4.0,10109.0,Public,In-State,Fees,Tuition
 2891,2020.0,Hawaii,4.0,11745.0,Public,In-State,Room,Board
 2892,2020.0,Hawaii,2.0,8391.0,Public,Out-of-State,Fees,Tuition
-2893,2020.0,Hawaii,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+2893,2020.0,Hawaii,4.0,,Public,Out-of-State,Fees,Tuition
 2894,2020.0,Hawaii,4.0,11745.0,Public,Out-of-State,Room,Board
 2895,2020.0,Idaho,4.0,6429.0,Private,,Fees,Tuition
 2896,2020.0,Idaho,4.0,7951.0,Private,,Room,Board
@@ -2664,7 +2664,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2941,2020.0,Kentucky,4.0,26048.0,Public,Out-of-State,Fees,Tuition
 2942,2020.0,Kentucky,4.0,10911.0,Public,Out-of-State,Room,Board
 2944,2020.0,Louisiana,4.0,13544.0,Private,,Room,Board
-2945,2020.0,Louisiana,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+2945,2020.0,Louisiana,2.0,,Public,In-State,Fees,Tuition
 2946,2020.0,Louisiana,4.0,9571.0,Public,In-State,Fees,Tuition
 2947,2020.0,Louisiana,4.0,9927.0,Public,In-State,Room,Board
 2948,2020.0,Louisiana,2.0,8282.0,Public,Out-of-State,Fees,Tuition
@@ -2691,7 +2691,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2974,2020.0,Massachusetts,4.0,13889.0,Public,Out-of-State,Room,Board
 2975,2020.0,Michigan,4.0,,Private,,Fees,Tuition
 2976,2020.0,Michigan,4.0,10381.0,Private,,Room,Board
-2977,2020.0,Michigan,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+2977,2020.0,Michigan,2.0,,Public,In-State,Fees,Tuition
 2978,2020.0,Michigan,4.0,13315.0,Public,In-State,Fees,Tuition
 2979,2020.0,Michigan,4.0,10772.0,Public,In-State,Room,Board
 2980,2020.0,Michigan,2.0,6564.0,Public,Out-of-State,Fees,Tuition
@@ -2704,7 +2704,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 2988,2020.0,Minnesota,2.0,6151.0,Public,Out-of-State,Fees,Tuition
 2990,2020.0,Minnesota,4.0,9863.0,Public,Out-of-State,Room,Board
 2992,2020.0,Mississippi,4.0,8607.0,Private,,Room,Board
-2993,2020.0,Mississippi,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+2993,2020.0,Mississippi,2.0,,Public,In-State,Fees,Tuition
 2994,2020.0,Mississippi,4.0,8604.0,Public,In-State,Fees,Tuition
 2995,2020.0,Mississippi,4.0,10476.0,Public,In-State,Room,Board
 2996,2020.0,Mississippi,2.0,5835.0,Public,Out-of-State,Fees,Tuition
@@ -2719,7 +2719,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3006,2020.0,Missouri,4.0,9742.0,Public,Out-of-State,Room,Board
 3007,2020.0,Montana,4.0,,Private,,Fees,Tuition
 3008,2020.0,Montana,4.0,9817.0,Private,,Room,Board
-3009,2020.0,Montana,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+3009,2020.0,Montana,2.0,,Public,In-State,Fees,Tuition
 3011,2020.0,Montana,4.0,9765.0,Public,In-State,Room,Board
 3012,2020.0,Montana,2.0,8596.0,Public,Out-of-State,Fees,Tuition
 3014,2020.0,Montana,4.0,9765.0,Public,Out-of-State,Room,Board
@@ -2728,7 +2728,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3017,2020.0,Nebraska,2.0,3103.0,Public,In-State,Fees,Tuition
 3018,2020.0,Nebraska,4.0,8582.0,Public,In-State,Fees,Tuition
 3019,2020.0,Nebraska,4.0,10938.0,Public,In-State,Room,Board
-3020,2020.0,Nebraska,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3020,2020.0,Nebraska,2.0,,Public,Out-of-State,Fees,Tuition
 3021,2020.0,Nebraska,4.0,22152.0,Public,Out-of-State,Fees,Tuition
 3022,2020.0,Nebraska,4.0,10938.0,Public,Out-of-State,Room,Board
 3023,2020.0,Nevada,4.0,26284.0,Private,,Fees,Tuition
@@ -2754,7 +2754,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3045,2020.0,New Mexico,4.0,25363.0,Private,,Fees,Tuition
 3046,2020.0,New Mexico,4.0,11599.0,Private,,Room,Board
 3047,2020.0,New Mexico,2.0,1724.0,Public,In-State,Fees,Tuition
-3048,2020.0,New Mexico,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+3048,2020.0,New Mexico,4.0,,Public,In-State,Fees,Tuition
 3049,2020.0,New Mexico,4.0,9041.0,Public,In-State,Room,Board
 3052,2020.0,New Mexico,4.0,9041.0,Public,Out-of-State,Room,Board
 3053,2020.0,New York,4.0,41404.0,Private,,Fees,Tuition
@@ -2777,7 +2777,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3071,2020.0,North Dakota,2.0,5073.0,Public,In-State,Fees,Tuition
 3072,2020.0,North Dakota,4.0,8628.0,Public,In-State,Fees,Tuition
 3073,2020.0,North Dakota,4.0,8821.0,Public,In-State,Room,Board
-3075,2020.0,North Dakota,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3075,2020.0,North Dakota,4.0,,Public,Out-of-State,Fees,Tuition
 3076,2020.0,North Dakota,4.0,8821.0,Public,Out-of-State,Room,Board
 3078,2020.0,Ohio,4.0,11861.0,Private,,Room,Board
 3079,2020.0,Ohio,2.0,4330.0,Public,In-State,Fees,Tuition
@@ -2806,7 +2806,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3104,2020.0,Pennsylvania,4.0,15565.0,Public,In-State,Fees,Tuition
 3106,2020.0,Pennsylvania,2.0,13480.0,Public,Out-of-State,Fees,Tuition
 3107,2020.0,Pennsylvania,4.0,30222.0,Public,Out-of-State,Fees,Tuition
-3108,2020.0,Pennsylvania,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+3108,2020.0,Pennsylvania,4.0,,Public,Out-of-State,Room,Board
 3109,2020.0,Rhode Island,4.0,43919.0,Private,,Fees,Tuition
 3110,2020.0,Rhode Island,4.0,15402.0,Private,,Room,Board
 3111,2020.0,Rhode Island,2.0,4700.0,Public,In-State,Fees,Tuition
@@ -2839,7 +2839,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3143,2020.0,Texas,2.0,2380.0,Public,In-State,Fees,Tuition
 3144,2020.0,Texas,4.0,8598.0,Public,In-State,Fees,Tuition
 3146,2020.0,Texas,2.0,6373.0,Public,Out-of-State,Fees,Tuition
-3147,2020.0,Texas,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3147,2020.0,Texas,4.0,,Public,Out-of-State,Fees,Tuition
 3148,2020.0,Texas,4.0,10113.0,Public,Out-of-State,Room,Board
 3149,2020.0,Utah,4.0,7600.0,Private,,Fees,Tuition
 3151,2020.0,Utah,2.0,3929.0,Public,In-State,Fees,Tuition
@@ -2854,7 +2854,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3160,2020.0,Vermont,4.0,17083.0,Public,In-State,Fees,Tuition
 3161,2020.0,Vermont,4.0,12582.0,Public,In-State,Room,Board
 3162,2020.0,Vermont,2.0,13398.0,Public,Out-of-State,Fees,Tuition
-3163,2020.0,Vermont,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3163,2020.0,Vermont,4.0,,Public,Out-of-State,Fees,Tuition
 3164,2020.0,Vermont,4.0,12582.0,Public,Out-of-State,Room,Board
 3165,2020.0,Virginia,4.0,23493.0,Private,,Fees,Tuition
 3166,2020.0,Virginia,4.0,11255.0,Private,,Room,Board
@@ -2882,7 +2882,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3191,2020.0,Wisconsin,2.0,4476.0,Public,In-State,Fees,Tuition
 3192,2020.0,Wisconsin,4.0,8764.0,Public,In-State,Fees,Tuition
 3193,2020.0,Wisconsin,4.0,9020.0,Public,In-State,Room,Board
-3194,2020.0,Wisconsin,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3194,2020.0,Wisconsin,2.0,,Public,Out-of-State,Fees,Tuition
 3195,2020.0,Wisconsin,4.0,25522.0,Public,Out-of-State,Fees,Tuition
 3196,2020.0,Wisconsin,4.0,9020.0,Public,Out-of-State,Room,Board
 3197,2020.0,Wyoming,2.0,4136.0,Public,In-State,Fees,Tuition
@@ -2984,12 +2984,12 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3308,2021.0,Kansas,4.0,9816.0,Private,,Room,Board
 3309,2021.0,Kansas,2.0,3648.0,Public,In-State,Fees,Tuition
 3310,2021.0,Kansas,4.0,10001.0,Public,In-State,Room,Board
-3311,2021.0,Kansas,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3311,2021.0,Kansas,2.0,,Public,Out-of-State,Fees,Tuition
 3312,2021.0,Kansas,4.0,23945.0,Public,Out-of-State,Fees,Tuition
 3313,2021.0,Kansas,4.0,10001.0,Public,Out-of-State,Room,Board
 3314,2021.0,Kentucky,4.0,26996.0,Private,,Fees,Tuition
 3315,2021.0,Kentucky,4.0,9279.0,Private,,Room,Board
-3316,2021.0,Kentucky,2.0,7706.03776683087,Public,In-State,Fees,Tuition
+3316,2021.0,Kentucky,2.0,,Public,In-State,Fees,Tuition
 3317,2021.0,Kentucky,4.0,11342.0,Public,In-State,Room,Board
 3318,2021.0,Kentucky,2.0,15262.0,Public,Out-of-State,Fees,Tuition
 3319,2021.0,Kentucky,4.0,25049.0,Public,Out-of-State,Fees,Tuition
@@ -3045,7 +3045,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3378,2021.0,Montana,4.0,9844.0,Private,,Room,Board
 3379,2021.0,Montana,2.0,3981.0,Public,In-State,Fees,Tuition
 3380,2021.0,Montana,4.0,9938.0,Public,In-State,Room,Board
-3381,2021.0,Montana,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3381,2021.0,Montana,2.0,,Public,Out-of-State,Fees,Tuition
 3382,2021.0,Montana,4.0,26368.0,Public,Out-of-State,Fees,Tuition
 3383,2021.0,Montana,4.0,9938.0,Public,Out-of-State,Room,Board
 3384,2021.0,Nebraska,4.0,24985.0,Private,,Fees,Tuition
@@ -3072,14 +3072,14 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3410,2021.0,New Mexico,4.0,24892.0,Private,,Fees,Tuition
 3411,2021.0,New Mexico,4.0,11878.0,Private,,Room,Board
 3412,2021.0,New Mexico,2.0,1766.0,Public,In-State,Fees,Tuition
-3413,2021.0,New Mexico,4.0,7706.03776683087,Public,In-State,Room,Board
+3413,2021.0,New Mexico,4.0,,Public,In-State,Room,Board
 3414,2021.0,New Mexico,2.0,6236.0,Public,Out-of-State,Fees,Tuition
 3415,2021.0,New Mexico,4.0,21645.0,Public,Out-of-State,Fees,Tuition
 3416,2021.0,New Mexico,4.0,9719.0,Public,Out-of-State,Room,Board
 3418,2021.0,New York,4.0,15792.0,Private,,Room,Board
 3419,2021.0,New York,2.0,5576.0,Public,In-State,Fees,Tuition
 3420,2021.0,New York,4.0,15815.0,Public,In-State,Room,Board
-3422,2021.0,New York,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3422,2021.0,New York,4.0,,Public,Out-of-State,Fees,Tuition
 3423,2021.0,New York,4.0,15815.0,Public,Out-of-State,Room,Board
 3424,2021.0,North Carolina,4.0,36772.0,Private,,Fees,Tuition
 3425,2021.0,North Carolina,4.0,,Private,,Room,Board
@@ -3109,7 +3109,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3454,2021.0,Oregon,2.0,5136.0,Public,In-State,Fees,Tuition
 3455,2021.0,Oregon,4.0,12980.0,Public,In-State,Room,Board
 3456,2021.0,Oregon,2.0,8710.0,Public,Out-of-State,Fees,Tuition
-3457,2021.0,Oregon,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3457,2021.0,Oregon,4.0,,Public,Out-of-State,Fees,Tuition
 3458,2021.0,Oregon,4.0,12980.0,Public,Out-of-State,Room,Board
 3459,2021.0,Pennsylvania,4.0,43926.0,Private,,Fees,Tuition
 3460,2021.0,Pennsylvania,4.0,14431.0,Private,,Room,Board
@@ -3133,7 +3133,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3480,2021.0,South Dakota,4.0,26740.0,Private,,Fees,Tuition
 3481,2021.0,South Dakota,4.0,8489.0,Private,,Room,Board
 3482,2021.0,South Dakota,2.0,7326.0,Public,In-State,Fees,Tuition
-3483,2021.0,South Dakota,4.0,7706.03776683087,Public,In-State,Room,Board
+3483,2021.0,South Dakota,4.0,,Public,In-State,Room,Board
 3484,2021.0,South Dakota,2.0,7224.0,Public,Out-of-State,Fees,Tuition
 3485,2021.0,South Dakota,4.0,12924.0,Public,Out-of-State,Fees,Tuition
 3486,2021.0,South Dakota,4.0,8166.0,Public,Out-of-State,Room,Board
@@ -3161,7 +3161,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3510,2021.0,Vermont,2.0,6920.0,Public,In-State,Fees,Tuition
 3511,2021.0,Vermont,4.0,13159.0,Public,In-State,Room,Board
 3512,2021.0,Vermont,2.0,13640.0,Public,Out-of-State,Fees,Tuition
-3514,2021.0,Vermont,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+3514,2021.0,Vermont,4.0,,Public,Out-of-State,Room,Board
 3515,2021.0,Virginia,4.0,23220.0,Private,,Fees,Tuition
 3516,2021.0,Virginia,4.0,12183.0,Private,,Room,Board
 3517,2021.0,Virginia,2.0,5228.0,Public,In-State,Fees,Tuition
@@ -3243,7 +3243,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3602,2014.0,Kentucky,2.0,12125.0,Public,Out-of-State,Fees,Tuition
 3603,2014.0,Louisiana,4.0,8656.0,Public,Out-of-State,Room,Board
 3604,2014.0,Maryland,4.0,12707.0,Private,,Room,Board
-3605,2014.0,Massachusetts,4.0,7706.03776683087,Public,In-State,Fees,Tuition
+3605,2014.0,Massachusetts,4.0,,Public,In-State,Fees,Tuition
 3606,2014.0,Michigan,2.0,6116.0,Public,Out-of-State,Fees,Tuition
 3607,2014.0,Minnesota,4.0,8034.0,Public,Out-of-State,Room,Board
 3608,2014.0,Missouri,4.0,8892.0,Private,,Room,Board
@@ -3262,7 +3262,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3626,2014.0,Washington,2.0,7108.0,Public,Out-of-State,Fees,Tuition
 3627,2014.0,West Virginia,4.0,8836.0,Public,Out-of-State,Room,Board
 3628,2014.0,Wyoming,2.0,2579.0,Public,In-State,Fees,Tuition
-3629,2015.0,Alabama,4.0,7706.03776683087,Public,In-State,Room,Board
+3629,2015.0,Alabama,4.0,,Public,In-State,Room,Board
 3630,2015.0,Alaska,4.0,19185.0,Public,Out-of-State,Fees,Tuition
 3631,2015.0,Arkansas,4.0,19974.0,Private,,Fees,Tuition
 3632,2015.0,California,2.0,1244.0,Public,In-State,Fees,Tuition
@@ -3291,7 +3291,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3656,2015.0,North Dakota,4.0,17316.0,Public,Out-of-State,Fees,Tuition
 3657,2015.0,Oklahoma,4.0,22309.0,Private,,Fees,Tuition
 3658,2015.0,Oregon,2.0,4023.0,Public,In-State,Fees,Tuition
-3659,2015.0,Pennsylvania,4.0,7706.03776683087,Public,In-State,Room,Board
+3659,2015.0,Pennsylvania,4.0,,Public,In-State,Room,Board
 3660,2015.0,Rhode Island,4.0,27110.0,Public,Out-of-State,Fees,Tuition
 3661,2015.0,South Dakota,4.0,21018.0,Private,,Fees,Tuition
 3662,2015.0,Tennessee,2.0,3820.0,Public,In-State,Fees,Tuition
@@ -3303,7 +3303,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3668,2015.0,Wisconsin,4.0,20020.0,Public,Out-of-State,Fees,Tuition
 3669,2016.0,Alabama,4.0,,Private,,Room,Board
 3670,2016.0,Alaska,4.0,6880.0,Public,In-State,Fees,Tuition
-3671,2016.0,Arizona,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3671,2016.0,Arizona,2.0,,Public,Out-of-State,Fees,Tuition
 3673,2016.0,Colorado,4.0,11319.0,Private,,Room,Board
 3674,2016.0,Connecticut,4.0,11106.0,Public,In-State,Fees,Tuition
 3675,2016.0,Delaware,2.0,6548.0,Public,Out-of-State,Fees,Tuition
@@ -3323,7 +3323,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3689,2016.0,Missouri,2.0,5814.0,Public,Out-of-State,Fees,Tuition
 3691,2016.0,Nevada,4.0,13475.0,Private,,Room,Board
 3692,2016.0,New Hampshire,4.0,14986.0,Public,In-State,Fees,Tuition
-3694,2016.0,New Mexico,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+3694,2016.0,New Mexico,4.0,,Public,Out-of-State,Room,Board
 3695,2016.0,North Carolina,4.0,11225.0,Private,,Room,Board
 3696,2016.0,North Dakota,4.0,7208.0,Public,In-State,Fees,Tuition
 3697,2016.0,Ohio,2.0,7738.0,Public,Out-of-State,Fees,Tuition
@@ -3352,7 +3352,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3726,2017.0,Massachusetts,4.0,28740.0,Public,Out-of-State,Fees,Tuition
 3727,2017.0,Minnesota,4.0,30925.0,Private,,Fees,Tuition
 3728,2017.0,Mississippi,2.0,2830.0,Public,In-State,Fees,Tuition
-3729,2017.0,Missouri,4.0,7706.03776683087,Public,In-State,Room,Board
+3729,2017.0,Missouri,4.0,,Public,In-State,Room,Board
 3730,2017.0,Montana,4.0,22956.0,Public,Out-of-State,Fees,Tuition
 3731,2017.0,Nevada,4.0,21423.0,Private,,Fees,Tuition
 3732,2017.0,New Hampshire,2.0,7002.0,Public,In-State,Fees,Tuition
@@ -3361,7 +3361,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3735,2017.0,North Carolina,4.0,30701.0,Private,,Fees,Tuition
 3736,2017.0,North Dakota,2.0,4562.0,Public,In-State,Fees,Tuition
 3737,2017.0,Ohio,4.0,11133.0,Public,In-State,Room,Board
-3738,2017.0,Oklahoma,4.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3738,2017.0,Oklahoma,4.0,,Public,Out-of-State,Fees,Tuition
 3739,2017.0,Pennsylvania,4.0,39185.0,Private,,Fees,Tuition
 3740,2017.0,Rhode Island,2.0,4266.0,Public,In-State,Fees,Tuition
 3742,2017.0,South Dakota,4.0,11845.0,Public,Out-of-State,Fees,Tuition
@@ -3379,7 +3379,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3754,2018.0,Connecticut,4.0,14409.0,Private,,Room,Board
 3755,2018.0,Delaware,4.0,12372.0,Public,In-State,Room,Board
 3756,2018.0,Florida,4.0,4455.0,Public,In-State,Fees,Tuition
-3757,2018.0,Georgia,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3757,2018.0,Georgia,2.0,,Public,Out-of-State,Fees,Tuition
 3758,2018.0,Hawaii,4.0,11492.0,Public,Out-of-State,Room,Board
 3759,2018.0,Illinois,4.0,12554.0,Private,,Room,Board
 3760,2018.0,Indiana,4.0,9038.0,Public,In-State,Fees,Tuition
@@ -3387,7 +3387,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3762,2018.0,Kansas,4.0,9227.0,Public,Out-of-State,Room,Board
 3763,2018.0,Louisiana,4.0,12737.0,Private,,Room,Board
 3765,2018.0,Maryland,2.0,9467.0,Public,Out-of-State,Fees,Tuition
-3766,2018.0,Massachusetts,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+3766,2018.0,Massachusetts,4.0,,Public,Out-of-State,Room,Board
 3767,2018.0,Minnesota,4.0,10300.0,Private,,Room,Board
 3768,2018.0,Mississippi,4.0,7980.0,Public,In-State,Fees,Tuition
 3769,2018.0,Missouri,2.0,6157.0,Public,Out-of-State,Fees,Tuition
@@ -3395,14 +3395,14 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3771,2018.0,Nevada,4.0,12902.0,Private,,Room,Board
 3772,2018.0,New Hampshire,4.0,15949.0,Public,In-State,Fees,Tuition
 3773,2018.0,New Jersey,2.0,8049.0,Public,Out-of-State,Fees,Tuition
-3774,2018.0,New Mexico,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+3774,2018.0,New Mexico,4.0,,Public,Out-of-State,Room,Board
 3775,2018.0,North Carolina,4.0,11910.0,Private,,Room,Board
 3777,2018.0,Ohio,2.0,7456.0,Public,Out-of-State,Fees,Tuition
 3778,2018.0,Oklahoma,4.0,8641.0,Public,Out-of-State,Room,Board
 3779,2018.0,Pennsylvania,4.0,13171.0,Private,,Room,Board
 3780,2018.0,Rhode Island,4.0,12239.0,Public,In-State,Fees,Tuition
 3781,2018.0,South Carolina,2.0,9480.0,Public,Out-of-State,Fees,Tuition
-3782,2018.0,South Dakota,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+3782,2018.0,South Dakota,4.0,,Public,Out-of-State,Room,Board
 3784,2018.0,Utah,4.0,6557.0,Public,In-State,Fees,Tuition
 3785,2018.0,Vermont,2.0,12678.0,Public,Out-of-State,Fees,Tuition
 3787,2018.0,West Virginia,4.0,,Private,,Room,Board
@@ -3433,13 +3433,13 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3813,2019.0,New Mexico,4.0,10069.0,Private,,Room,Board
 3814,2019.0,New York,4.0,8184.0,Public,In-State,Fees,Tuition
 3815,2019.0,North Carolina,2.0,8655.0,Public,Out-of-State,Fees,Tuition
-3816,2019.0,North Dakota,4.0,14083.638535031847,Public,Out-of-State,Room,Board
+3816,2019.0,North Dakota,4.0,,Public,Out-of-State,Room,Board
 3817,2019.0,Oklahoma,4.0,9754.0,Private,,Room,Board
 3818,2019.0,Oregon,4.0,10286.0,Public,In-State,Fees,Tuition
 3819,2019.0,Pennsylvania,2.0,14111.0,Public,Out-of-State,Fees,Tuition
 3820,2019.0,Rhode Island,4.0,12250.0,Public,Out-of-State,Room,Board
 3821,2019.0,South Dakota,4.0,,Private,,Room,Board
-3823,2019.0,Texas,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3823,2019.0,Texas,2.0,,Public,Out-of-State,Fees,Tuition
 3824,2019.0,Utah,4.0,7658.0,Public,Out-of-State,Room,Board
 3825,2019.0,Virginia,4.0,11089.0,Private,,Room,Board
 3826,2019.0,Washington,4.0,7036.0,Public,In-State,Fees,Tuition
@@ -3463,7 +3463,7 @@ Unnamed: 0,Year,State,Length,Value,Type_1,Type_2,Expense_1,Expense_2
 3846,2020.0,Michigan,2.0,6564.0,Public,Out-of-State,Fees,Tuition
 3847,2020.0,Minnesota,4.0,9863.0,Public,Out-of-State,Room,Board
 3848,2020.0,Missouri,4.0,10705.0,Private,,Room,Board
-3850,2020.0,Nebraska,2.0,14083.638535031847,Public,Out-of-State,Fees,Tuition
+3850,2020.0,Nebraska,2.0,,Public,Out-of-State,Fees,Tuition
 3851,2020.0,New Hampshire,4.0,14070.0,Private,,Room,Board
 3852,2020.0,New Jersey,4.0,14360.0,Public,In-State,Fees,Tuition
 3854,2020.0,New York,4.0,15408.0,Public,Out-of-State,Room,Board

@@ -95,15 +95,15 @@ for index, row in df.iterrows():
             type_1 = row['Type_1']
             type_2 = row['Type_2']
             year =  row['Year']
-            index = np.where(years == year)[0][0]            
+            index_year = np.where(years == year)[0][0]            
             if type_1 == "Private" and type_2 == "In-State":
-                    df.at[index, 'Value'] = in_private_mean[index]                   
+                    df.at[index, 'Value'] = in_private_mean[index_year]                   
             elif type_1 == "Private" and type_2 == "Out-of-State":
-                    df.at[index, 'Value'] = out_private_mean[index]                     
+                    df.at[index, 'Value'] = out_private_mean[index_year]                     
             elif type_1 == "Public" and type_2 == "In-State":
-                df.at[index, 'Value'] = in_public_mean[index]                  
+                df.at[index, 'Value'] = in_public_mean[index_year]                  
             elif type_1 == "Public" and type_2 == "Out-of-State":
-                    df.at[index, 'Value'] = out_public_mean[index]              
+                    df.at[index, 'Value'] = out_public_mean[index_year]              
 
 
 
